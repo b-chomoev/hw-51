@@ -1,0 +1,7 @@
+.lottery-number {
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+    border: 3px lawngreen solid;
+    border-radius: 50%;
+}
