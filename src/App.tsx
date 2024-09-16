@@ -6,12 +6,12 @@ const App = () => {
     const [numbers, setNumbers] = useState<number[]>([5, 11, 16, 23, 32]);
 
     const getRandomNumbers = () => {
-        let newNumberArray: number[] = [];
+        const newNumberArray: number[] = [];
 
         while (true) {
             if (newNumberArray.length === 5) break;
 
-            let randomNumber = Math.floor(Math.random() * (36 + 1 - 5) + 5);
+            const randomNumber = Math.floor(Math.random() * (36 + 1 - 5) + 5);
 
             if (!newNumberArray.includes(randomNumber)) newNumberArray.push(randomNumber);
         }
